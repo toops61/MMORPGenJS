@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a6325;
+}
+
 @font-face {
   font-family: "Font Awesome 5";
   font-style: normal;
