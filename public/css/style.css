@@ -28,5 +28,17 @@ body {
   src: url("../fonts/fa-brands-400.eot");
   src: url("../fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-brands-400.woff2") format("woff2"), url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.ttf") format("truetype"), url("../fonts/fa-brands-400.svg#fontawesome") format("svg");
 }
+.container {
+  width: 100%;
+  display: flex;
+}
+
+#console {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 400px;
+  margin: 100px;
+}
 
 /*# sourceMappingURL=style.css.map */
