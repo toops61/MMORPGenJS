@@ -1,7 +1,24 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #0a6325;
+}
+
+#console {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 400px;
+  margin: 100px;
+  height: calc(100vh - 200px);
+}
+
+.canvas {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-height: 300px;
 }
 
 @font-face {
@@ -27,6 +44,10 @@ body {
   font-display: block;
   src: url("../fonts/fa-brands-400.eot");
   src: url("../fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-brands-400.woff2") format("woff2"), url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.ttf") format("truetype"), url("../fonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+#container {
+  width: 100%;
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
